@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+#nav-top{
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    background-color: #EEEEEE;
+}
+#nleft{
+    height: 100%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    
+}
+
+.nleft1{
+    height: 100%;
+    width: 50%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nleft2{
+    height: 100%;
+    width: 50%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact1 img{
+    height: 4vh;
+    width: 2vw;
+
+}
+#nright{
+    height: 100%;
+    width: 20%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nright button{
+    padding: 1.2vh 2vw;
+    background-color: white;
+    border: none;
+}
+/* nav-bottom */
+
+#nav-bottom{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    box-shadow:2px 2px 6px black ; 
+}
+#bottom-left{
+    height: 100%;
+    width: 30%;
+    /* background-color: yellow; */
+    padding: 1.2vh ;
+    padding-left:8vw ;
+}
+#bottom-right{
+    height: 100%;
+    width: 70%;
+    /* background-color:green; */
+    display: flex;
+    align-items: center;
+    gap:15px;
+    position: relative;
+}
+#links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#links a {
+    text-decoration:none;
+    color: green;
+
+}
+#btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn1 button{
+    background-color: blue;
+    color: white;
+    padding: 2vh 1.2vw;
+    border: none;
+}
+.btn2 button{
+    background-color:#8dc63f;
+    color: white;
+    padding: 2vh 1.2vw;
+    border: none;
+
+}
+#menu-icon i{
+    height: 12px;
+    width: 12px;
+    display: none;
+    /* background-color: red; */  
+}
+#section{
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 0 100px;
+    
+}
+/* hero-section */
+#hero-section{
+    height: 450px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+   
+  
+}
+
+#hero-left{
+    height: auto;
+    width: 50%;
+    /* background-color: green; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-1{
+    font-size: 20px;
+
+}
+
+#left-content span{
+    color: #8dc63f;
+
+}
+#left-content h3{
+    margin-top: 10px;
+
+}
+#left-content p{
+    margin-top: 10px;
+
+}
+#hero-btn button {
+    padding: 6px 15px;
+   
+}
+#hero-right{
+    height: 100%;
+    width: 50%;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#hero-right img{
+    height: 80%;
+    width: 80%;
+
+}
+
+.Donate-section{
+    height: 200px;
+    width: 100%;
+    background-color: #b6ef4933;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* gap: 2px; */
+}
+.sec-1{
+    width: 26vw;
+    border: 1px solid black;
+}
+.sec-1-g{
+    background-color: rgb(92, 47, 47);
+    color: white;
+}
+.sec-2{
+    padding: 12px 12px;
+    background-color: white;
+}
+.donate-btn{
+    background-color: #8dc63f;
+    border: none;
+}
+#zakat-section{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    margin-top: 20px;
+    /* background-image: url(./assets/images/mid\ image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+}
+#zakat-section img{
+    height: 100%;
+    width: 100%;
+}
+
+#Doing-section{
+    height: auto;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#welfare-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welfare-h1 h1{
+    margin-top: 20px;
+}
+#cards{
+    width: 100%;
+    height:auto ;
+    /* background-color: red; */
+    padding-top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+#card{
+    height: 200px;
+    width: 150px;
+    background-color: #b6ef4933;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/*sponser section  */
+#cards2{
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#card2{
+    height: 300px; 
+    width: 320px;
+    /* background-color: red; */
+    background-image: url(./assets/images/card-image.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 150px;
+    margin-top: 20px;
+
+}
+#card2 h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+}
+#card2 button{
+    margin: 0px 20px;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+/*  */
+#card3{
+    height: 300px; 
+    width: 320px;
+    /* background-color: red; */
+    background-image: url(./assets/images/image-2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 150px;
+    margin-top: 20px;
+
+}
+#card3 h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#card3 button{
+    margin: 0px 20px;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+/*  */
+#card4{
+    height: 300px; 
+    width: 320px;
+    /* background-color: red; */
+    background-image: url(./assets/images/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 150px;
+    margin-top: 20px;
+
+}
+#card4 h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#card4 button{
+    margin: 0px 20px;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+@media (max-width:1024px) {
+   
+    #links{
+        display: none;
+    }
+    #btn{
+        display: none;
+    }
+
+    #menu-icon i {
+        display: block;
+        font-size:30px; 
+        /* border: 1px solid black; */
+        position: absolute;
+        right: 10%;
+        top: 20%;
+    }   
+    #section{
+        padding: 0 20px;
+       
+    }
+    #bottom-left{
+        padding: 1.2vh ;
+    padding-left:2vw ;
+    }
+    
+}
+@media (max-width:768px) {
+    .nleft1{
+        flex-direction: column;
+    }
+    .nleft2{
+        flex-direction: column;
+    }
+    #section{
+        padding: 0 10px;
+    }
+    #zakat-section img{
+        width: 100%;
+        height: 100%;
+    }
+    #cards{
+        padding: 20px 45px;
+    }
+    #card{
+        height: 200px;
+        width: 200px;
+    }
+    
+    
+}
+
+@media (max-width:425px) {
+    #nav-top{
+        display: none;
+    }
+    #hero-left{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #hero-right{
+        display: none;
+    }
+    #hero-section{
+        padding-left:  2px;
+        padding-top: 40px;
+    }
+    .Donate-section{
+        margin-top: 10px;
+    }
+    #zakat-section{
+        width: 100%;
+        height: 250px;
+    }
+    #zakat-section img{
+        height: 100%;
+        width: 100%;
+    }
+    #cards{
+        padding: 0px 0px;
+    }
+    #card{
+        height: 200px;
+        width: 100%;
+    }
+    #card2{
+        height: 300px; 
+        width: 100%;
+    }
+    #card2 h4{
+        margin-left: 150px;
+    }
+    #card3{
+        height: 300px; 
+        width: 100%;
+    }
+    #card3 h4{
+        margin-left: 100px;
+    }
+    #card4{
+        height: 300px; 
+        width: 100%;
+    }
+    #card4 h4{
+        margin-left: 100px;
+    }
+    
+
+    
+    
+    
+}
