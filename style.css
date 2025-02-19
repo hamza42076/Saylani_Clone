@@ -22,43 +22,40 @@ html,body{
 #nleft{
     height: 100%;
     width: 80%;
-    /* background-color: blue; */
+    /* background-color: red; */
     display: flex;
-    align-items: center;
-    padding: 0 2vw;
-    
 }
-
 .nleft1{
     height: 100%;
-    width: 50%;
-    background-color: orangered;
+    width: 45%;
+    /* background-color: yellow; */
     display: flex;
-    align-items: center;
-    gap: 10px;
+    gap: 30px;
+    padding-top: 3vh ;
+    padding-left: 10vw;
+}
+.contact1{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    gap: 5px;
+}
+.contact1 p{
+    font-size: 1vw;
 }
 .nleft2{
     height: 100%;
-    width: 50%;
-    background-color: skyblue;
+    width: 55%;
+    /* background-color: blue; */
     display: flex;
-    align-items: center;
-    gap: 10px;
-}
-#contact{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.contact1{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    gap: 2px;
+    padding-top:3vh;
+    padding-right: 80px;
 }
 .contact1 img{
-    height: 4vh;
+    height: 3vh;
     width: 2vw;
-
 }
 #nright{
     height: 100%;
@@ -280,7 +277,7 @@ html,body{
     /* background-color: blue; */
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 #card2{
     height: 300px; 
@@ -362,7 +359,80 @@ html,body{
     padding: 10px 20px;
     color: white;
 }
+/* Project-sectioln */
+#Project-section{
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+#left-P{
+    height: 100%;
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#left-img{
+    height: 300px;
+    width: 380px;
+    /* background-color: green; */
+    
+}
+#left-img img{
+    height:100%;
+    width: 100%;
+    /* background-color: green; */
+    
+}
+#right-P{
+    height: 100%;
+    width: 60%;
+    /* background-color: blue; */
+}
+#right-content{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#right-content h1{
+    padding-top: 20px;
+    
 
+}
+.Project-card{
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.hepatitis{
+    height: 80px;
+    width: 140px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.hepatitis-content h6 {
+    color: blue;
+    
+}
+@media (max-width:1440px) {
+    #left-P{
+        margin-top: 10%;
+    }
+    
+}
 
 @media (max-width:1024px) {
    
@@ -389,6 +459,9 @@ html,body{
         padding: 1.2vh ;
     padding-left:2vw ;
     }
+    #left-P{
+        margin-top: 10%;
+    }
     
 }
 @media (max-width:768px) {
@@ -412,7 +485,23 @@ html,body{
         height: 200px;
         width: 200px;
     }
-    
+    .nleft1{
+        flex-direction: column;
+        gap: 0px;
+    }
+    #Project-section{
+        flex-direction: column;
+
+    }
+    #left-P{
+        width: 100%;
+    }
+    #left-img {
+        width: 100%;
+    }
+    #right-P{
+        width: 100%;
+    }
     
 }
 
